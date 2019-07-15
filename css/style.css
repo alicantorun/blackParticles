@@ -1,7 +1,7 @@
+/* Typography */
 @import url("https://fonts.googleapis.com/css?family=Poppins");
 
 /* Main styling */
-
 .zimablue {
   color: #007bff;
 }
@@ -18,7 +18,6 @@
   }
 }
 
-
 html {
   scroll-behavior: smooth;
 }
@@ -34,7 +33,7 @@ body {
   background-color: black;
 }
 
-/* --- Website main intro section --- */
+/* Website main intro section */
 /* Navbar */
 .navbar {
   padding: 0.8rem;
@@ -73,7 +72,7 @@ body {
 #personal-intro {
   position: absolute;
   display: block;
-  top: 50%;
+  top: 60%;
   left: 50%;
   color: white;
   width: 50%;
@@ -81,6 +80,10 @@ body {
   text-align: center;
   transform: translate(-50%, -50%);
 }
+
+#personal-intro .name-header {
+  white-space: pre-line;
+ }
 
 .personal-intro h3:nth-of-type(2) {
   text-shadow: 1px 2px 2px lightgray;
@@ -91,15 +94,26 @@ body {
   font-size: 3.5rem;
 }
 
+@media screen and (max-width: 420px) {
+  .name-header {
+    font-size: 3.2rem;    
+  }
+}
 
-/* --- About me section --- */
+@media screen and (max-width: 320px) {
+  .name-header {
+    font-size: 2.5rem;    
+  }
+}
+
+/* About me section */
 #about-me {
+  margin-top: 100px;
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: #111;
   color: white;
   position: relative;
-  top: -20px;
   margin-bottom: 130px;
 }
 
