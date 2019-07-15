@@ -117,8 +117,13 @@ body {
   margin-bottom: 130px;
 }
 
+.about-me-alignment {
+  padding-top:50px;
+}
+
 .about-me-img {
   width: auto;
+  margin-bottom: 20px;
 }
 
 .social-links {
@@ -127,6 +132,8 @@ body {
   text-decoration: none;
   list-style: none;
   padding-left: 0;
+  margin-top: 20px;
+  font-size: 1.5rem;
 }
 
 .social-links li {
@@ -287,7 +294,7 @@ body {
 }
 
 .fa-instagram {
-  color: #517fa4;
+  color: #007bff;
 }
 
 .fa-youtube {
@@ -298,6 +305,8 @@ body {
 .fa-twitter:hover,
 .fa-google-plus-g:hover,
 .fa-instagram:hover,
+.fa-github:hover,
+.fa-linkedin:hover,
 .fa-youtube:hover {
   color: #d5d5d5;
 }
@@ -327,6 +336,8 @@ body {
   background-color: rgba(17, 17, 17, 0.8) !important;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  padding-top:15px;
+  height: 35px;
 }
 
 .reddd {
