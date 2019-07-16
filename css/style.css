@@ -1,6 +1,10 @@
 /* Typography */
 @import url("https://fonts.googleapis.com/css?family=Poppins");
 
+.text-justify {
+  text-align: justify;
+}
+
 /* Main styling */
 .zimablue {
   color: #007bff;
@@ -117,6 +121,12 @@ body {
   margin-bottom: 130px;
 }
 
+@media screen and (max-width: 576px) {
+  #about-me {
+    padding-top: 50px;
+  }
+}
+
 .about-me-alignment {
   padding-top: 50px;
 }
@@ -178,6 +188,13 @@ body {
   padding-bottom: 100px;
   background-color: #111;
   color: white;
+}
+
+@media screen and (max-width: 568px) {
+  .submit-button {
+    display: block;
+    width: 100%;
+  }
 }
 
 /* Footer */
