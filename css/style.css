@@ -152,70 +152,22 @@ body {
 .carousel-div-item-inner {
 }
 
-/* Section-3 Services */
-#my-services {
-  padding-top: 100px;
-  margin-top: -50px;
-}
-
-.my-services-single-item {
-  border: 0.5px solid white;
-  padding: 35px 20px 35px 20px;
-  margin-bottom: 35px;
-}
-
-.my-services-single-item h6 {
-  color: #007bff;
-  font-size: 1.4em;
-}
-
-.my-services-single-item i {
-  font-size: 2em;
-  color: white;
-  padding-bottom: 15px;
-}
-
-.my-services-single-item p {
-  color: white;
-}
-
-#my-services > div > div > div.text-center > h2 {
-  color: white;
-  padding-bottom: 35px;
-}
-
-/* Section-4 Works */
-
-#my-works {
-  margin-top: 100px;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  background-color: #111;
-  color: white;
-}
-
-.my-works-single-item {
-  border: 0.5px solid white;
-  padding: 35px 20px 35px 20px;
-  margin-bottom: 35px;
-}
-
-#works > div > div > div.text-center > h2 {
-  color: white;
-  padding-bottom: 35px;
-}
-
 /* Technology Stack*/
 #technology-stack {
   color: white;
-  padding-top: 100px;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  margin-top: 200px;
+  margin-bottom: 200px;
 }
 
 #technology-expand {
   margin-top: 50px;
   color: white;
+}
+
+#my-projects {
+  padding-top: 50px;
 }
 
 /* Contact Form*/
